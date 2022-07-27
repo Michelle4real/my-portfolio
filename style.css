@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+}
+.topbar{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 0 8% 0 5%;
+	height: 80px;
+	background: #6b40dc;
+	align-items: center;
+}
+.icon-wrap{
+	justify-self:flex-end;
+	display: flex;
+}
+.circle{
+	display: grid;
+	place-items:center;
+	height: 40px;
+	width: 40px;
+	border:1px solid papayawhip;
+	border-radius: 100%;
+	color: white;
+	margin: 8px;
+	background: transparent;
+}
+.circle:hover{
+	background: #6ddddc;
+}
+nav a{
+	color: white;
+	margin: 15px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-size: 18px;
+}
+.logo{
+	font-size: 38px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: white;
+}
+.banner{
+	height: 550px;
+	background: #6b40dc;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 0 0% 0 5%;
+	align-items: center;
+}
+.img-bg{
+	background: url(images/1.jpg);
+	height: 100%;
+	background-position: center;
+	object-position: 80% 30% 0 0;
+	object-fit: cover;
+	border-radius: 100% 0px 0px 100%;
+}
+.intro{
+	color: white;
+}
+.big{
+	font-size: 60px;
+	text-transform: capitalize;
+	line-height: 50px;
+
+}
+.bigi{
+	font-size: 60px;
+	text-transform: capitalize;
+	line-height: 25px;
+
+}
+.small{
+	font-size: 30px;
+	text-transform: capitalize;
+}
